@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExcersiseLoop</title>
+  </head>
+  <body>
+    <h1>JavaScript Arrays</h1>
+    <h2>JavaScript loop</h2>
+
+    <p id="show"></p>
+
+    <script>
+      const Arrays = [
+        {
+          tittel: "Home",
+          URL: "https://www.google.com/"
+        },
+
+        { tittel: "AboutUS", URL: "https://www.yahoo.com/" },
+
+        { tittel: "ContactUS", URL: "https://www.w3school.com/" },
+      ];
+      function menuenew(Arrays) {
+        let len = Arrays.length;
+        let Menue = "";
+
+        for (i = 0; i < len; i++) {
+          Menue +=
+             "<a href = '" + Arrays[i].URL +
+            "'>" +
+            Arrays[i].tittel +
+            +"</a>";
+        }
+        return Menue;
+      }
+      document.getElementById("show").innerHTML = menuenew(Arrays);
+    </script>
+  </body>
+</html>
