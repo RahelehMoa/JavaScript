@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createElement</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+<h1>The Document Object</h1>
+<h2>The createElement() Method</h2>
+
+<p>Create a p element and append it to "myDiv":</p>
+<!-- <div> </div> -->
+<div id="show" class="slider" style="padding:16px;background-color:rgb(38, 146, 60)"><h3>A DIV element</h3></div>
+
+<script>
+// Create element:
+const para = document.createElement("p");
+para.innerHTML = "These early practices focused on natural remedies and preventative care, which have grown and evolved into the wellness movement and holistic health practices we're familiar with in the present day. ";
+
+// Append to another element:
+document.getElementById("show").appendChild(para);
+</script>
+</body>
+</html>
