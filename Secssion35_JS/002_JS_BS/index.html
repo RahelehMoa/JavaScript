@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>The DOMToken Object</h1>
+    <h2>The remove() Method</h2>
+
+    <button onclick="myFunction()">Remove</button>
+    <p>Click "Remove" to remove the "removetagglebricks" class from myDIV.</p>
+
+    <div id="show" class="removetagglebricks">
+        <p>Global health is the health of the populations in the worldwide context; it has been defined as "the area of study, research, and practice that places a priority on improving health and achieving equity in health for all people worldwide". Problems that transcend national borders or have a global political and economic impact are often emphasized. Thus, global health is about worldwide health improvement (including mental health), reduction of disparities, and protection against global threats that disregard national borders,including the most common causes of human death and years of life lost from a global perspective.</p>
+    </div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("show").classList.remove("removetagglebricks");
+        }
+    </script>
+
 </body>
 </html>
