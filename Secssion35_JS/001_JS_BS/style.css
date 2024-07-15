@@ -1,0 +1,10 @@
+.darkmodebricks {
+    width: 100%;
+    padding: 50px;
+    margin-top: 30px;
+    background-color: rgb(83, 117, 68);
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+
+}
