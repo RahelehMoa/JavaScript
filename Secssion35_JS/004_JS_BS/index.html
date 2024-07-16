@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add,Remove</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p>Click the "Try it" button to change the class of the DIV element from "mystyle" to "newone":</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<div id="show" class="addbricks">
+<p>Heart rate is the frequency of the heartbeat measured by the number of contractions of the heart per minute (beats per minute, or bpm). The heart rate varies according to the body's physical needs, including the need to absorb oxygen and excrete carbon dioxide. It is also modulated by numerous factors, including (but not limited to) genetics, physical fitness, stress or psychological status, diet, drugs, hormonal status, environment, and disease/illness, as well as the interaction between these factors. It is usually equal or close to the pulse rate measured at any peripheral point.</p>
+</div>
+
+<script>
+function myFunction() {
+   const element = document.getElementById("show");
+   element.classList.remove("addbricks");  // Remove mystyle class
+   element.classList.add("removebricks");  // Add newone class
+}
+</script>
+</body>
+</html>

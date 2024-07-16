@@ -1,0 +1,17 @@
+.addbricks{
+    width: 100%;
+    padding: 25px;
+    background-color: rgb(148, 39, 17);
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.removebricks{
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(41, 93, 41);
+    color: white;
+    margin-top: 15px;
+}
