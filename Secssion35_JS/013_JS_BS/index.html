@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>The DOMToken Object</h1>
+    <h2>The contains() Method</h2>
+
+    <div id="show1" class="bricks1 bricks2 bricks3">
+        <p> "Take my hand, take my whole life too. For I can’t help falling in love with you." —Elvis Presley</p>
+    </div>
+
+    <p>Does the "show1" element have a class of "bricks1"?</p>
+    <p id="show2"></p>
+
+    <script>
+        let x = document.getElementById("show1").classList.contains("bricks1");
+        document.getElementById("show2").innerHTML = x;
+    </script>
 </body>
 </html>
