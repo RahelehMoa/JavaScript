@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lenght</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>The DOMToken Object</h1>
+<h2>The length Property</h2>
+
+<div id="show1" class="brickshealth1 brickshealth2 brickshealth3">
+<p>Health systems are the organizations established to meet the health needs of targeted populations. According to the World Health Organization (WHO), a well-functioning healthcare system requires a financing mechanism, a well-trained and adequately paid workforce, reliable information on which to base decisions and policies, and well-maintained health facilities to deliver quality medicines and technologies.</p>
+</div>
+
+<p>The number of class names in show1 are:</p>
+<p id="show2"></p>
+
+<script>
+let numb = document.getElementById("show1").classList.length;
+document.getElementById("show2").innerHTML = numb;
+</script>
+</body>
+</html>
