@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>The DOMToken Object</h1>
+    <h2>The add() Method</h2>
+
+    <button onclick="myFunction()">Remove</button>
+    <p>Click "Remove" to add multiple classes to show.</p>
+
+    <div id="show" class="brickshealth1 brickshealth2 brickshealth3">
+        <p>Health systems are the organizations established to meet the health needs of targeted populations. According to the World Health Organization (WHO), a well-functioning healthcare system requires a financing mechanism, a well-trained and adequately paid workforce, reliable information on which to base decisions and policies, and well-maintained health facilities to deliver quality medicines and technologies.</p>
+    </div>
+<!-- Multi_classes -->
+    <script>
+        function myFunction() {
+            document.getElementById("show").classList.remove("brickshealth1", "brickshealth2", "brickshealth3");
+        }
+
+    </script>
+</body>
+</html>

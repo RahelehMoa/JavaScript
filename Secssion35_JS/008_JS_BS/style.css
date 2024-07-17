@@ -1,0 +1,14 @@
+.brickshealth1 {
+    background-color: rgb(80, 232, 255);
+    padding: 16px;
+    color: rgb(102, 101, 101);
+}
+
+.brickshealth2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.brickshealth3 {
+    text-transform: uppercase;
+}

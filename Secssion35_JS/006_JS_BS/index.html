@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>The DOMToken Object</h1>
+    <h2>The toggle() Method</h2>
+    <!-- we have one function of Button tag with onclick="myFunction()"! -->
+    <button onclick="FunctionToggel()">Toggle</button>
+    <p>Click "Toggle" to toggle "toggelbricks" on and off.</p>
+
+    <div id="show">
+        <p>Health care, or healthcare, is the improvement of health via the prevention, diagnosis, treatment, amelioration or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals and allied health fields. Medicine, dentistry, pharmacy, midwifery, nursing, optometry, audiology, psychology, occupational therapy, physical therapy, athletic training, and other health professions all constitute health care. The term includes work done in providing primary care, secondary care, tertiary care, and public health.</p>
+    </div>
+    <!-- Java Script: one way; .classList.toggle("toggelbricks");-->
+    <script>
+        function FunctionToggel() {
+            document.getElementById("show").classList.toggle("toggelbricks");
+        }
+    </script> 
+</body>
+</html>
