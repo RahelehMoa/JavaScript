@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>The Element Object</h1>
+    <h2>The classList Property</h2>
+    
+    <div id="show1" class="bricks1 bricks2 bricks3">
+    <p>“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.” —Angelita Lim.</p> 
+    </div>
+    
+    <p>The class names of "show1" are:</p>
+    <p id="show2"></p>
+    
+    <script>
+    const list = document.getElementById("show1").classList;
+    document.getElementById("show2").innerHTML = list;
+    </script> 
+</body>
+</html>

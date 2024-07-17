@@ -1,0 +1,12 @@
+.bricks1 {
+    background-color: rgb(212, 4, 146);
+    padding: 20px;
+    color: white;
+  }
+  .bricks2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .bricks3 {
+    text-transform: lowercase;
+  }
