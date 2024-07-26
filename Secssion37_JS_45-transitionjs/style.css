@@ -1,0 +1,20 @@
+#show {
+    border: 1px solid black;
+    background-color: rgb(72, 118, 69);
+    width: 800px;
+    height: 300px;
+    padding: 40px;
+    overflow: auto;
+    font-size: small;
+    transition-delay: 5s;
+}
+
+#show:hover {
+    background-color: rgb(105, 171, 167);
+    width: 800px;
+    height: 300px;
+    padding: 80px;
+    border-radius: 20px;
+    font-size: small;
+    
+}
